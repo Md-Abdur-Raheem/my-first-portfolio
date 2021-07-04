@@ -7,7 +7,7 @@ h1 {
     font-size: 50px;
 }
 
-h1 span {
+span {
     color: #FFA500;
 }
 
@@ -60,4 +60,34 @@ h1 span {
 
 .paragraph {
     color: #696969;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.developer {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 2px;
+    border-left: 5px solid tomato;
+}
+
+.experience {
+    background-image: url('background/exp-bg.png');
+    background-repeat: no-repeat;
+}
+
+#border {
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(18, 59, 241), rgb(138, 198, 238));
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
